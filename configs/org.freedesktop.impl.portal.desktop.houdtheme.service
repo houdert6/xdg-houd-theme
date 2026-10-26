@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.freedesktop.impl.portal.desktop.houdtheme
+Exec=/usr/lib/xdg-houd-theme
+SystemdService=xdg-desktop-portal-houdtheme.service

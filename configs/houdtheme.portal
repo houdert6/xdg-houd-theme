@@ -1,0 +1,4 @@
+[portal]
+DBusName=org.freedesktop.impl.portal.desktop.houdtheme
+Interfaces=org.freedesktop.impl.portal.Settings
+UseIn=any

@@ -1,0 +1,14 @@
+[Unit]
+Description=System Wide Dark Mode
+PartOf=graphical-session.target
+After=xdg-desktop-portal.service
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.impl.portal.desktop.houdtheme
+ExecStart=/usr/lib/xdg-houd-theme
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=graphical-session.target
